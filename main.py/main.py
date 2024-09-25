@@ -36,5 +36,13 @@ print(f'the area of your room is {area} feet squared')
 
 
 
-#
+#practice 3 
 
+
+#part 1 
+name ='Braden'
+age = 17
+fav_color = 'Blue'
+message = 'My name is {0} and I am {1} years old. {2} is my favorite color'.format(name,age,fav_color)
+print(message)
+#part 2 
