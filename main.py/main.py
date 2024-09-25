@@ -46,3 +46,15 @@ fav_color = 'Blue'
 message = 'My name is {0} and I am {1} years old. {2} is my favorite color'.format(name,age,fav_color)
 print(message)
 #part 2 
+burger = float(input('put the amount a burger would cost:\n'))
+fries = float(input('put the amount fries would cost:\n'))
+coke = float(input('put the amount a coke would cost:\n'))
+
+price = coke + fries + burger *1.06
+sales_tax = price * 0.026
+print(f'The total amount of tax from the three items is ${sales_tax:.2f}. As well as the total price is ${price:.2f}')
+#part 3
+fri_name = 'Dakota'
+school = 'buckley'
+message = 'My friend {0} goes to the same school as me, Which is {1}'.format(fri_name,school)
+print(message)
